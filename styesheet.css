@@ -1,0 +1,140 @@
+body{
+  background-image: url(Images/black.jpg);
+  color:#13CA91;
+  font-variant: small-caps;
+}
+.form
+{
+  font-size: 20px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 20px;
+	width:60%;
+	margin-left:260px;
+	padding-bottom:50px;
+  border:2px solid #13CA91;
+  border-radius:40px 0 40px 0;
+  color:#13CA91;	
+}
+
+#check{
+  margin-left: 10px;
+  margin-top: 20px;
+  display:inline;
+}
+
+#show{
+  margin-left: 55px;
+  display:inline;
+}
+
+.label,.labelkey
+{
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+  padding-left:60px;
+
+}
+
+.Category
+{
+  color:#86888A;
+}
+input:not(.Category)
+{
+  border:1px solid #13CA91;
+  color:#86888A;
+  box-shadow:0 0 10px;
+
+-webkit-box-shadow:0 0 10px;
+ position: relative;
+  left: 50px;
+  -webkit-animation: slideIn 2s forwards;
+
+
+-webkit-border-radius:5px;
+
+background-color:transparent;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.input1
+{
+	float: left;
+	width: 800px;
+	margin-top: 6px;
+	
+}
+
+label 
+{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left: 20px
+}
+
+
+
+input[type=text], input[type=password],input[type=email],input[type=date],select, textarea
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #13CA91;
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+.row
+{
+	  content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) 
+{
+  .label, .input1, input[type=submit] 
+  {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.error
+{
+	color:red;
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+input[type=submit] {
+
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  margin-left : 650px;
+  margin-top:10px;
+  box-shadow: 1px 1px 1px;
+  font-variant:small-caps;
+  background-color:transparent;
+  border: dotted;;
+  color: #13CA91;
+  text-decoration: none;
+  
+}
+input#btn:hover{
+background-color:#FF9980
+}
